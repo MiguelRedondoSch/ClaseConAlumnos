@@ -8,4 +8,28 @@ public class Clase {
         this.asignatura = asignatura;
         this.alumno = alumno;
     }
+    
+    public String getTutor(){
+        return tutor;
+    }
+    
+    public String getAsignatura(){
+        return asignatura;
+    }
+    
+    public String getalumno(){
+        return alumno;
+    }
+    
+    public void setTutor(String tutor){
+        this.tutor = tutor;
+    }
+    
+    public void setAsignatura(String asignatura){
+        this.asignatura = asignatura;
+    }
+    
+    public void setAlumno(String alumno){
+        this.alumno = alumno;
+    }
 }

@@ -36,6 +36,6 @@ public class Clase {
     public void imprimirDetalles(){
         System.out.println("Tutor: " + tutor);
         System.out.println("Asignatura: " + asignatura);
-        System.out.println("Alumno: " + alumno);
+        System.out.println("Alumno: " + alumno.getNombre());
     }
 }

@@ -17,7 +17,7 @@ public class Clase {
         return asignatura;
     }
     
-    public String getalumno(){
+    public Alumno getalumno(){
         return alumno;
     }
     
@@ -29,7 +29,7 @@ public class Clase {
         this.asignatura = asignatura;
     }
     
-    public void setAlumno(String alumno){
+    public void setAlumno(Alumno alumno){
         this.alumno = alumno;
     }
 }
